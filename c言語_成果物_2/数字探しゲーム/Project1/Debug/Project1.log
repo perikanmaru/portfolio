@@ -1,2 +1,0 @@
-﻿  ソース.cpp
-D:\programing_2\Project1\ソース.cpp(5,10): fatal error C1083: include ファイルを開けません。'getputch.h':No such file or directory
