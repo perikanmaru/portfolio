@@ -1,0 +1,5 @@
+﻿  ソース.cpp
+D:\programing_2\9-7\ソース.cpp(20,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\programing_2\9-7\ソース.cpp(21,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\programing_2\9-7\ソース.cpp(28,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  9-7.vcxproj -> D:\programing_2\9-7\Debug\9-7.exe

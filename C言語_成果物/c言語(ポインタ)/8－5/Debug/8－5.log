@@ -1,0 +1,6 @@
+﻿  ソース.cpp
+D:\programing_2\8－5\ソース.cpp(45,12): warning C4244: '引数': 'time_t' から 'unsigned int' への変換です。データが失われる可能性があります。
+D:\programing_2\8－5\ソース.cpp(73,10): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\programing_2\8－5\ソース.cpp(56,6): warning C4101: 'str_2': ローカル変数は 1 度も使われていません。
+D:\programing_2\8－5\ソース.cpp(55,6): warning C4101: 'str': ローカル変数は 1 度も使われていません。
+  8－5.vcxproj -> D:\programing_2\8－5\Debug\8－5.exe

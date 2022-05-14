@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>計算機</title>
+    <style>
+        .numbox {
+            width: 100px; 
+        }
+    </style>
+    <script>
+        function calc() {
+            var a=parseFloat(document.getElementById("a").value);
+            var b=parseFloat(document.getElementById("b").value);
+            var ele=document.getElementById("ans");
+            var ans;
+            var select=document.getElementById("ops");
+            var op=select.options[select.selectedIndex];
+            switch (op.value) {
+                case "+": ans=a+b; break;
+                case "-": ans=a-+b; break;
+                case "*": ans=a*b; break;
+                case "/": ans=a/b; break;
+                case "%": ans=a%+b; break;
+                default: ans="*********";
+            }
+            ele.value=ans;
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>計算機</h1>
+    [a]欄と[b]欄に値を入力し、[演算記号]を選択した後に、ボタン[＝]をクリックすると、計算結果が[ans]欄に表示されます。<br>
+        <input type="text" class="numbox" id="a" placeholder="a">
+        <select id="ops">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
+            <option value="%">…(あまり)</option>
+        </select>
+        <input type="text" class="numbox" id="b" placeholder="b">
+        <input type="button" value="＝" onclick="calc()">
+        <input type="text" class="numbox" id="ans" placeholder="ans">
+</body>
+</html>

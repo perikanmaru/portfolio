@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+.header{
+	text-align: left;
+	margin:0px;
+	padding:50px 0px 50px 50px;
+	background-image:url(images/header.jpg);
+	background-position: 50% 65% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text_box{
+	padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+	width: 450px;
+}
+.header_h1{
+	color: royalblue;
+	padding:0px;
+	margin:0px;
+}
+.header_h3{
+	padding: 0px;
+	margin: 0px;
+}
+.main{
+	background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+.teigi{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #6594e0;/*文字色*/
+  /*線の種類（点線）2px 線色*/
+  border-bottom: dashed 2px #6594e0;
+}
+.chapter_1{
+	margin-left: 20px;
+	padding: 1rem 2rem;
+    border-left: 4px  solid royalblue;
+}
+.tyuui_1{
+margin: 0px;
+width: 550px;
+color: red;
+border-bottom: double 5px #FFC778;
+}
+
+.pic1{
+padding: 20px;
+margin-bottom: 10px;
+}
+.pic2{
+	margin-left: 50px;
+	padding: 20px;
+}
+.chapter_2{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 1rem 2rem;
+    border-left: 4px  solid royalblue;
+}
+.h3_me-ka-{
+	width: 300px;
+	color: #010079;
+  text-shadow: 0 0 5px white;
+  border-left: solid 7px #010079;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
+.p_kyoutyou1{
+	margin: 0px;
+	width: 500px;
+	color: royalblue;
+	border-bottom: double 5px #FFC778;
+	}
+.p_kyoutyou2{
+margin: 0px;
+width: 750px;
+color: royalblue;
+border-bottom: double 5px #FFC778;
+}
+
+.chapter_3{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 1rem 2rem;
+    border-left: 4px  solid royalblue;
+}
+.stg_1{
+	margin: 0px;
+width: 750px;
+color: royalblue;
+border-bottom: double 5px #FFC778;
+}
+.h3-1{
+	width: 400px;
+	color: #010079;
+  text-shadow: 0 0 5px white;
+  border-left: solid 7px #010079;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+.dac{
+	color: red;
+}
+
+.chapter_4{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 1rem 2rem;
+    border-left: 4px  solid royalblue;
+}
+.kikikurabe{
+	text-decoration:none;
+	margin: 0px;
+width: 750px;
+color: royalblue;
+border-bottom: double 5px #FFC778;
+}
+
+.chapter_6{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 1rem 2rem;
+    border-left: 4px  solid royalblue;
+}
+
+.kikikurabetemita{
+	width: 400px;
+	color: #010079;
+  text-shadow: 0 0 5px white;
+  border-left: solid 7px #010079;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+.apple{
+	margin: 0px;
+	width: 250px;
+	color: royalblue;
+	border-bottom: double 5px #FFC778;
+}
+.music{
+	text-decoration: none;
+}
+.amazon{
+	margin: 0px;
+	width: 250px;
+	color: royalblue;
+	border-bottom: double 5px #FFC778;
+}
+
+.rink_box{
+	padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	width: 300px;
+	text-align: center;
+}
+.rink{
+	text-decoration: none;
+}

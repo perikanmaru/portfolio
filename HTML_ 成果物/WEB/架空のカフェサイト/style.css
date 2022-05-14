@@ -1,0 +1,146 @@
+@charset "utf-8";
+body{
+	background-color:moccasin;
+	margin:0px;
+	padding:0px;
+	
+}
+.main{
+	margin:30px;
+}
+/*背景画像の設定*/
+.haikei{
+	background-image:url(images/sarada_kai.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+/* タイトルに関しての設定 */
+.taitoru{
+	color: blueviolet;
+	display:inline-block;
+	text-decoration: none;
+}
+/* フッターの設定 */
+.dining_cafe_2020{
+	background-color:seagreen;
+	padding: 50px;
+	text-align: center;
+}
+/* 共通部分css開始 */
+.oukan{
+	display: inline-block;
+}
+.nav{
+	
+	display:flex;
+	float:right;
+	list-style: none;
+}
+.nav a{
+text-decoration: none;
+color: red;
+margin:30px;
+}
+
+.Café_moji{
+	background-color:red;
+	text-align: center;
+	color: white;
+	margin:0px;
+	padding:20px;
+}
+/* 共通部分css終了 */
+
+/* Aboutに関するcss開始 */
+.About{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+.office{
+	display: flex;
+}
+.office p{
+margin: 0px 0px 0px 70px;
+}
+.company{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+.tr1{
+	background-color: skyblue;
+}
+.genzaiti{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+/* Aboutに関するcss終了 */
+
+/* Menuに関するcss開始 */
+.Menu_moji{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+.Menu_setumei{
+	color: red;
+	text-align: center;
+}
+.pictures{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+.picture_box{
+	text-align: center;
+	
+}
+/* menuに関する説明終了 */
+
+/* Newsに関する説明開始 */
+.News_moji{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+.News_setumei{
+	color: red;
+	text-align: center;
+}
+
+.osusume{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+
+.osusume_menu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+
+}
+
+.osusume_menu_pictures{
+	text-align: center;
+}
+
+.ranking{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+.news_and_topics{
+	color: royalblue;
+	padding: 1rem 2rem;
+    border-left: 4px  solid #663333;
+}
+
+.news_1{
+
+	color: blue;
+	text-decoration: none;
+}
