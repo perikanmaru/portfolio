@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var max = function(a1,a2) {
+            let r = 0;
+            if(a1<a2){
+                r = a2;
+                return r;
+            }else{
+                r = a1;
+                return r;
+            }
+        }
+    let a;
+    let b;
+    a = Math.floor(Math.random()*100);
+    b = Math.floor(Math.random()*100);
+        
+        let m = 0;
+        m = max(a,b);
+        console.log("max("+a+","+b+") = "+m);
+
+    </script>
+</body>
+</html>

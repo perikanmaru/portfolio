@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 0;
+        var d = 0;
+        var n = 0;
+        
+        a = parseFloat(prompt("初項 : "));
+        d = parseFloat(prompt("公差 : "));
+        n = parseFloat(prompt("項数(>= 1) : "));
+        
+        console.log("等差数列 : 初項 = "+a+",公差  = "+d+",項数 = "+n);
+        var i = 1;
+        var p = a;
+        while (i<=n) {
+            console.log("p["+i+"] = "+p);
+            p = p + d;
+            i++;
+        }
+
+    </script>
+</body>
+</html>

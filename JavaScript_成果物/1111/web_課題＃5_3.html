@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function loop(n) {       
+   let max = function (a1,a2){
+       cnt++;
+       let r = 0;
+       if(a1<a2){
+           r = a2;
+        }else{
+            r = a1;
+        }
+        return r;
+    }
+
+    let a;
+    let b;
+    let m;
+    a = Math.floor(Math.random()*100);
+    b = Math.floor(Math.random()*100);
+    m = max(a,b);
+    console.log("最大値("+a+","+b+") = "+m);
+    if(cnt>=n){
+        clearInterval(id);
+    }else{
+        ;
+    }
+        }
+        cnt = 0;
+
+        let id = setInterval(loop,1000,10);
+    
+
+    </script>
+</body>
+</html>

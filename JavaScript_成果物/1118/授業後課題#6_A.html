@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 0;
+        var b = 0;
+        var c = 0;
+        
+        a = parseFloat(prompt("1～15の整数を入力してください。"));
+        b = parseFloat(prompt("1～15の整数を入力してください。"));
+        c = parseFloat(prompt("1～15の整数を入力してください。"));
+        
+        console.log("a = "+a+",b = "+b+",c = "+c+"を三辺とする三角形は、");
+        if(c*c==(a*a)+(b*b)){
+            console.log("cを斜辺とする直角三角形である");
+        } else{
+            console.log("cを斜辺とする直角三角形でない");
+        }
+
+    </script>
+</body>
+</html>

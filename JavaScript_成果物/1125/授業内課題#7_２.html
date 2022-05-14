@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">タイトル</h1>
+    <p class="ccc" name = "elm1">要素1 : <strong>強調</strong>してみました</p>
+    <p class="ccc" name = "elm2">要素2 : <strong>強調</strong>してみました</p>
+    <div id = "div1" style="width: 200px; height: 100px; border: solid black 1px;"></div>
+</body>
+<script>
+    var elm_d = document.getElementById("div1");
+    elm_d.style.backgroundColor = "yellow";
+    var sp = document.createElement("span");
+    var text = document.createTextNode("テスト");
+    sp.setAttribute("id","div1-sp");
+    elm_d.appendChild(sp).appendChild(text);
+    var sp1 = document.getElementById("div-sp");
+    sp1.style.fontSize = "40px";
+
+</script>
+</html>

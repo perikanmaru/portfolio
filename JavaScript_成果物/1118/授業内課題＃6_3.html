@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Vector = function (xComp,yComp) {
+            this.x = xComp;
+            this,y = yComp;
+            this.disp = function () {
+                var str = "["+this.x+","+this.y+"]";
+                return str;
+            },
+            this.lenght = function () {
+                var r = Math.sqrt(this.x*this.x+this.y*this,y);
+                return r;
+            }
+        }
+        var a = new Vector(3,6);
+        var b = new Vector(4,-3);
+        console.log("ベクトル"+a.disp()+"の長さ = "+a.lenght());
+        console.log("ベクトル"+b.disp(4,-3)+"の長さ = "+b.lenght(4,-3));
+
+
+    </script>
+</body>
+</html>

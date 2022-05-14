@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 0;
+        let b = 0;
+        
+        a = Math.random();
+        b = Math.random();
+        console.log("a = "+a);
+        console.log("b = "+b);
+        
+        if(a>b){
+          console.log("aが大きい");
+        }else{
+          console.log("bが大きい");
+        }
+        
+        
+        let ans = 0;
+        
+        ans = parseFloat(prompt("0～9の整数を入力してください。"));
+        console.log("ans = "+ans);
+        
+        let cor = 0;
+        cor = Math.random();
+        cor = Math.floor(10*cor);
+        
+        if(ans==cor){
+          console.log(ans+"は正解");
+        }else if(ans>cor){
+          console.log(ans+"は大きい。正解は"+cor);
+        }else{
+          console.log(ans+"は小さい。正解は"+cor);
+        }
+        
+        let ratio = 0;
+        ratio = parseFloat(prompt("0～100の整数を入力してください。"))
+        ratio = ratio/100.0;
+        console.log("指定確率 = "+ratio);
+        
+        let p = 0;
+        p = Math.random();
+        
+        let result = 0;
+        
+        if(p<ratio){
+          console.log("表");
+        }else{
+          console.log("裏");
+        }
+        console.log(result+" : 乱数 = "+p);
+        
+        
+        let ask = 0;
+        ask = parseFloat(prompt("1～5の整数を入力してください。"))
+        
+        switch(ask){
+            
+          case 1:
+            console.log("部署Aにお繋ぎします。");
+            break;
+          case 2:
+            console.log("部署Bにお繋ぎします。");
+            break;
+          case 3:
+            console.log("部署Cにお繋ぎします。");
+            break;
+          default:
+            console.log("部署Dにお繋ぎします。");
+        }
+        
+    
+        
+      </script>
+</body>
+</html>

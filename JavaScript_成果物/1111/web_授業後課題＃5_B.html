@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+        function leap(year) {
+            var result;
+            if(year%400 == 0 || (year%100 != 0 && year%4 == 0)){
+                result = "うるう年である";
+            } else{
+                result = "うるう年でない";
+            }
+            return result;
+        }
+        var y = 0;
+        y = parseFloat(prompt("西暦年(>=1600) : "));
+        var a;
+        a = leap(y);
+        console.log(y+"年は"+a);
+    </script>
+</body>
+</html>

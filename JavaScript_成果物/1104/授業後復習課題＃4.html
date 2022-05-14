@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let year = 0;
+        let year_2 = 0;
+        let year_tmp = 0;
+        let judge = 0;
+        
+    prompt("入力された西暦年がうるう年かどうかを判定します。");
+    year = parseFloat(prompt("年数を入力してください。"));
+
+    while (year<0) {
+        year = parseFloat(prompt("値が不正です。"))
+    }
+    year_tmp = year;
+    year_2 = year;
+
+    if(year%400 == 0){
+    judge = 1;
+    }
+    if(year_2%4 ==0 && (year_2%100)!=0){
+        judge=1;
+    }
+
+    switch(judge){
+        case 0:
+            console.log(year_tmp+"年はうるう年ではありません。");
+            break;
+        case 1:
+            console.log(year_tmp+"はうるう年です。")
+            break;
+            default:
+                break;
+    }
+
+
+
+    </Script>
+</body>
+</html>

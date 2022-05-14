@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var n = 0;
+        n = parseFloat(prompt("整数(1～20) : "));
+        var  a = [];
+        for(var i =0;i<=n;){
+            a[i] = Math.floor(Math.random()*99 +1);
+            i++;
+        }
+        var m = a[0];
+        console.log("a[0] = "+a[0]+" : m = "+m);
+        for(i = 0;i<=n;){
+            if(m <a[i]){
+                m = a[0];
+            }else{
+                ;
+            }
+            console.log("a["+i+"] = "+a[i]+" : m = "+m);
+            i++;
+        }
+    </script>
+</body>
+</html>

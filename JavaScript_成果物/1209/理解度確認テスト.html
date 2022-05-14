@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseFloat(prompt("二桁の整数を入力してください。"));
+        console.log(a*365);
+
+        if(a%2!=0 || a%3!=0 || a%5!=0 || a%7!=0){
+            console.log("素数である。");
+        }else{
+            console.log("素数ではない。");
+        }
+
+        var b = 101;
+        var tmp = 0;
+        for(c = 0; b <=500;b++){
+            if(b%a ==0){
+                console.log(b);
+            }
+        }
+    </script>
+</body>
+</html>

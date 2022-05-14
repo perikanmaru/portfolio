@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">タイトル</h1>
+    <p class="ccc" name = "elm1">要素1 : <strong>強調</strong>してみました</p>
+    <p class="ccc" name = "elm2">要素2 : <strong>強調</strong>してみました</p>
+    <div id = "div1" style="width: 200px; height: 100px; border: solid black 1px;"></div>
+    <script>
+        var elm_t = document.getElementById("title");
+        var tc = elm_t.innerText;
+        console.log("元のタイトル = {"+tc+"}");
+        elm_t.textContent = "タイトルの変更";
+
+        var ps = document.getElementsByClassName("ccc");
+        var a = ps[0].getAttribute("name");
+        var b = ps[0].innerHTML;
+        console.log("ps[0] : name = "+a+"innerHTMLプロパティの値"+b);
+
+        var a = ps[1].getAttribute("name");
+        var b = ps[1].innerText;
+        console.log("ps[1] : name = "+a+"innertextプロパティの値"+b);
+
+
+    </script>
+</body>
+</html>

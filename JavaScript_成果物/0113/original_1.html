@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3520028_中玉利透羽</title>
+<style>
+    /* じゃんけんを表示する場所 */
+    #janken{
+        border: 1px solid;
+        color: black;
+        width: 500px;
+        height: 300px;
+        font-size: 50px;
+        padding-top: 150px;
+        text-align:center;
+    }
+
+</style>
+<script>
+    var enemy = ["グー","チョキ","パー"]
+    var judge = ["引き分けです。","あなたの負けです。","あなたの勝ちです。"];
+    var count = 1;
+    function janken(){
+        var num = Math.floor(Math.random()*2)+0;
+        // 0～2の乱数を生成
+        var element = document.getElementById("janken");
+        // プレイヤーが選択したものの値を所得して"yourselect"に代入
+        var selecter = document.getElementById("selecter");
+        var yourselect = selecter.value;
+        // console.log(yourselect);
+        // じゃんけんゲームの判定
+        var judge_number = (num-yourselect)%3;
+        element.innerText = judge[judge_number];
+        var result = enemy[num];
+        console.log(count+"回目 "+"あなたは"+enemy[yourselect]+"で相手は"+result+"で"+judge[judge_number]);
+        count++;
+    }
+
+</script>
+</head>
+<body>
+    <h2>じゃんけんゲーム</h2><br>
+    自分の出したい手を選択して勝負！ボタンをクリックすると勝負できます。
+    <!-- #jyankenの領域に関数"jyanken"の内容を表示 -->
+    <div id="janken" ondblclick="janken()">
+    </div>
+    <select id = "selecter">
+        <option value="0">グー</option>
+        <option value="1">チョキ</option>
+        <option value="2">パー</option>
+    </select>
+    <br>
+    <!-- 実行ボタン -->
+    <input  type="button" value="勝負!"  onclick="janken()"  style="width: 50px; height:50px; text-align: center;"><br>
+    
+    <!-- じゃんけん結果を表示する -->
+    <textarea name="log" class="log" rows="10" cols="50" disabled></textarea>
+    <script type="text/javascript">
+      console.log = ((logTextAreaArgument) => {
+        let logTextArea = logTextAreaArgument;
+        return text => logTextArea.value+=text+'\n';
+      })(document.getElementsByClassName('log')[0]);
+
+      console.log('ここに結果を表示します。');
+    </script>
+</body>
+</html>
